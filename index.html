@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <h1>Task Tracker</h1>
+        <p>Automate your tasks</p>
+    </header>
+
+    <!-- MAIN CONTENT (The App) -->
+    <main class="app-container">
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Start writing and press enter to create task">
+            <button id="addBtn" aria-label="Add task">→</button>
+        </div>
+
+        <ul id="taskList">
+            <!-- JavaScript will inject task <li> elements here -->
+        </ul>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Task Tracker. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
